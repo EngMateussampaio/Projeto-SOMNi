@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Raleway:ital,wght@0,100;0,400;0,700;0,900;1,400;1,700;1,800&display=swap');
+body{
+    display: grid;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: grid;
+    margin: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:linear-gradient(rgb(90, 90, 90),black 80%);
+    padding: 5px;
+
+}
+
+.logo{
+    background-image: url(Cópia\ de\ SOMNI\ engenharia\ LOGO.png );
+    background-size: cover;
+    background-position: center;
+    margin-left: 7px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 4px;
+    border-color: gray;
+    border-style: solid;
+   
+}
+
+.flex{
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.rolagem a{
+    color: #ffff;
+    opacity: 100%;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+header ul li{
+    display: inline-block;
+    margin: 0px 60px;
+    padding: 3px;
+    width: auto;
+}
+header ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 30px;
+    opacity: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header ul li:hover{
+    background-color: gray;
+    background-clip: border-box;
+    border: 10px;
+    border-radius: 30px;
+}
+
+banner{
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-image: url(Captura\ de\ tela\ 2024-01-01\ 153417.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 75%;
+    background-position: right 0px top 80px;
+    
+}
+banner img{
+
+    height: 1200px;
+    margin: -90px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+banner h1{
+    color:black;
+    top:122px;
+    left:-600px; 
+    position: relative;
+    font-size: 150px;
+    font-family: Gwendolyn;
+    clear: both;
+    word-wrap: break-word;
+    
+}
+banner p{
+    width: 500px;
+    color:black;
+    top:315px;
+    left:-1035px; 
+    position: relative;
+    font-size: 50px;
+    font-family: Gwendolyn;
+    display: inline;
+  
+
+}
+.servicos{
+    height: 800px;
+    background-color: #e5e5f7;
+    
+    background-size: 30px 30px;
+    background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 1px, #e5e5f7 1px, #e5e5f7);
+}
